@@ -1,4 +1,9 @@
+# Ignore personal env files
 .env
+# Ignore any custom env files, but allow example.env
 *.env
+!example.env
+
+# Other stuff
 backups/
 .DS_Store
